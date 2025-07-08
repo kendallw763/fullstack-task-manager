@@ -1,15 +1,6 @@
 ![ChatGPT Image Jul 8, 2025 at 07_52_41 AM](https://github.com/user-attachments/assets/b8e95e0e-c4ed-47ae-bc08-7038066259a3)
-![Screenshot 2025-07-04 at 12 54 29 PM](https://github.com/user-attachments/assets/af8eab20-1e4e-4682-a234-8ee199206e47)
-<img width="1679" alt="Screenshot 2025-07-07 at 1 54 57 PM" src="https://github.com/user-attachments/assets/e7167169-d574-4847-b126-1783494778e0" />
-<img width="1679" alt="image 1 52 09 PM" src="https://github.com/user-attachments/assets/5c16b8ca-06cf-4ecd-9b40-7e3959841c68" />
-<img width="574" alt="Screenshot 2025-07-07 at 1 55 10 PM" src="https://github.com/user-attachments/assets/9cc84aae-99a6-43ee-b87b-f282aa0bc185" />
-<img width="576" alt="image 4 48 46 PM" src="https://github.com/user-attachments/assets/3f153f48-19d5-4782-9483-f205be515fd3" />
 
-
-
-
-    
-  ## 🧠 Purpose -
+  ## 🧠 Purpose 
     Task manager is intended to send API request to the front-end browser for user view. Weather for collaboration among teammates or to be a part of a larger application clients and stakeholders can view, add, delete, and update their tasks. This application is scalable to allow API calls to the backend via React from the front end.
   
   ## Key Features 
@@ -163,7 +154,7 @@ Example: Task
 
 # 🧪 Backend/Frontend communication via file path with port number
 
-  ## Frontend - TaskList -
+  ## Frontend - TaskList 
 
     useEffect(() => {
     axios.get('http://localhost:8080/api/tasks')
@@ -172,7 +163,7 @@ Example: Task
     }, []);
 
 
-  ## Frontend - Vite.config -
+  ## Frontend - Vite.config 
 
     export default defineConfig({
     plugins: [react()],
@@ -186,18 +177,18 @@ Example: Task
         }
     })
 
-  ## Backend - TaskController –
+  ## Backend - TaskController 
   
     @CrossOrigin(origins = "http://localhost:5173") //allow frontend requests
 
-## Backend - application.properties - 
+## Backend - application.properties 
   
      spring.datasource.url=${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/task-manager-api}
 
      **Note - The dollar signs are here because it makes it easier for the application to find the route when using docker and other tools.
      all of these file paths and port numbers are paramount for the application to communicate properly. These are the standard port numbers used by React, PostgreSQL, Postman API tester and the database.
     
-  ## Swagger UI route – 
+  ## Swagger UI route 
 
     localhost8080/api/tasks to view API endpoints for collaboration
 
