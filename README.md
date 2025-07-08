@@ -1,7 +1,7 @@
 ![ChatGPT Image Jul 8, 2025 at 07_52_41 AM](https://github.com/user-attachments/assets/b8e95e0e-c4ed-47ae-bc08-7038066259a3)
 
 
-# 📊 Task Manager 
+
 <img width="1679" alt="Screenshot 2025-07-07 at 1 54 57 PM" src="https://github.com/user-attachments/assets/e7167169-d574-4847-b126-1783494778e0" />
 <img width="1679" alt="image 1 52 09 PM" src="https://github.com/user-attachments/assets/5c16b8ca-06cf-4ecd-9b40-7e3959841c68" />
 <img width="574" alt="Screenshot 2025-07-07 at 1 55 10 PM" src="https://github.com/user-attachments/assets/9cc84aae-99a6-43ee-b87b-f282aa0bc185" />
